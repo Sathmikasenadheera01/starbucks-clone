@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="shortcut icon"
+      href="images/starbucks-logo-png-1688.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-main">
+    <!-- navbar -->
+    <div
+      class="flex justify-between px-4 py-4 md:px-10 md:py-6 shadow-md w-full"
+    >
+      <div class="flex gap-12 items-center">
+        <img
+          src="images/starbucks-logo-png-1688.png"
+          alt="logo"
+          class="w-8 md:w-12"
+        />
+        <ul
+          class="uppercase text-black md:flex hidden gap-6 font-bold text-[15px]"
+        >
+          <li>Menu</li>
+          <li>Rewards</li>
+          <li>Gift cards</li>
+        </ul>
+      </div>
+      <div class="hidden md:flex font-bold items-center">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+            clip-rule="evenodd"
+          />
+        </svg>
+
+        <h3 class="mr-6 ml-3">find a store</h3>
+        <button
+          class="border px-4 text-sm rounded-full border-black py-1.5 mx-6"
+        >
+          Sign In
+        </button>
+        <button
+          class="border border-black px-4 text-sm rounded-full text-white bg-black py-2"
+        >
+          Join Now
+        </button>
+      </div>
+      <div class="md:hidden block">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </div>
+    </div>
+
+    <!-- main section -->
+    <section
+      class="flex justify-between items-center flex-col md:flex-row text-center mt-8 bg-secondary"
+    >
+      <div class="flex-1">
+        <img src="images/main1.jpg" alt="" />
+      </div>
+      <div class="px-4 md:px-0 mx-auto bg-secondary text-primary flex-1">
+        <div class="md:px-24">
+          <h3 class="font-bold my-8 text-lg md:text-2xl md:font-semibold">Fall at your fingertips</h3>
+          <p class="text-[15px] font-medium leading-7 md:text-[18px]">
+            Ordering your fall favorites is a snap with the app. Join Starbucks®
+            Rewards and tap into fall.
+          </p>
+          <button
+            class="border px-4 text-sm rounded-full border-primary font-bold py-1.5 mx-6 my-8 md:text-base"
+          >
+            Join Now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- section2 -->
+    <section class="flex justify-between items-center flex-col md:flex-row text-center mt-8 bg-starbuck-green">
+      <div class="px-4 md:px-0 mx-auto bg-starbuck-green text-white flex-1 order-2 md:order-1">
+        <div class="md:px-24">
+          <h3 class="font-bold my-8 text-[26px] md:text-5xl md:font-bold">Welcome home, pumpkin</h3>
+          <p class="text-[19px] font-medium md:leading-10 md:text-[23px]">
+            Fall favorites return with the blissful Pumpkin Spice Latte and smooth Pumpkin Cream Cold Brew.
+          </p>
+          <button class="border px-4 text-sm rounded-full border-white font-bold py-1.5 mx-6 my-8 md:text-base">
+            Learn More
+          </button>
+        </div>
+      </div>
+      <div class="flex-1 order-1 md:order-2">
+        <img src="images/main2.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- section3 -->
+    <section class="flex justify-between items-center flex-col md:flex-row text-center mt-8 bg-starbuck-green">
+      <div class="flex-1">
+        <img src="images/main3.jpg" alt="" />
+      </div>
+      <div class="px-4 md:px-0 mx-auto bg-starbuck-green text-white flex-1">
+        <div class="md:px-24">
+          <h3 class="font-bold my-8 text-[26px] md:text-5xl md:font-bold">Layers of baked apple yum</h3>
+          <p class="text-[19px] font-medium md:leading-10 md:text-[23px]">
+            Try the Apple Crisp Oatmilk Macchiato, now nondairy and with Starbucks® Blonde Espresso.
+          </p>
+          <button class="border px-4 text-sm rounded-full border-white font-bold py-1.5 mx-6 my-8 md:text-base">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- section4 -->
+    <section class="flex justify-between items-center flex-col md:flex-row text-center mt-8 bg-starbuck-green">
+      
+      <div class="px-4 md:px-0 mx-auto bg-starbuck-green text-white flex-1 order-2 md:order-1">
+        <div class="md:px-24">
+          <h3 class="font-bold my-8 text-[26px] md:text-5xl md:font-bold">Picks of the patch</h3>
+          <p class="text-[19px] font-medium md:leading-10 md:text-[23px]">
+            Choose a comforting classic: Pumpkin Cream Cheese Muffin, Pumpkin & Pepita Loaf or Pumpkin Scone.
+          </p>
+          <button class="border px-4 text-sm rounded-full border-white font-bold py-1.5 mx-6 my-8 md:text-base">
+            Learn More
+          </button>
+        </div>
+      </div>
+
+      <div class="flex-1 order-1 md:order-2">
+        <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-79283.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- section5 -->
+    <section class="flex justify-between items-center flex-col md:flex-row text-center mt-8 bg-starbuck-green">
+      
+      <div class="flex-1">
+        <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-79284.jpg" alt="" />
+      </div>
+
+      <div class="px-4 md:px-0 mx-auto bg-starbuck-green text-white flex-1">
+        <div class="md:px-24">
+          <h3 class="font-bold my-8 text-[26px] md:text-5xl md:font-bold">The art of the roast</h3>
+          <p class="text-[19px] font-medium md:leading-10 md:text-[23px]">
+            With a new roast spectrum front and center on our coffee bags, it’s easier than ever to find a taste you love.
+          </p>
+          <button class="border px-4 text-sm rounded-full border-white font-bold py-1.5 mx-6 my-8 md:text-base">
+            Order now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="flex justify-start gap-2 mt-8 flex-col md:flex-row">
+
+      <div class="px-4 md:w-1/6 flex md:block justify-between items-center">
+          <h3 class="font-semibold text-[15px] md:text-lg my-4 md:my-6">About Us</h3>
+          <ul class="text-slate-600 hidden md:block">
+            <li class="mb-6">Our Company</li>
+            <li class="mb-6">Our Coffee</li>
+            <li class="mb-6">Stories and News</li>
+            <li class="mb-6">Starbucks Archieve</li>
+            <li class="mb-6">Investor Relations</li>
+            <li class="mb-6">Customer Service</li>
+          </ul>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+          </svg>          
+      </div>
+
+      <div class="px-4 md:w-1/6 flex md:block justify-between items-center">
+        <h3 class="font-semibold text-[15px] md:text-lg my-4 md:my-6">Careers</h3>
+        <ul class="text-slate-600 hidden md:block">
+          <li class="mb-6">Culture and Values</li>
+          <li class="mb-6">Inclusion,Diversity, and Equity</li>
+          <li class="mb-6">College Achievement Plan</li>
+          <li class="mb-6">Alumini Community</li>
+          <li class="mb-6">U.S Careers</li>
+          <li class="mb-6">International Careers</li>
+        </ul>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+        </svg> 
+      </div>
+
+      <div class="px-4 md:w-1/6 flex md:block justify-between items-center">
+        <h3 class="font-semibold text-[15px] md:text-lg my-4 md:my-6">Social Impact</h3>
+        <ul class="text-slate-600 hidden md:block">
+          <li class="mb-6">People</li>
+          <li class="mb-6">Planet</li>
+          <li class="mb-6">Enviroment and Social Impact Reporting</li>
+        </ul>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+        </svg> 
+      </div>
+
+      <div class="px-4 md:w-1/6 flex md:block justify-between items-center">
+        <h3 class="font-semibold text-[15px] md:text-lg my-4 md:my-6">For Business Partners</h3>
+        <ul class="text-slate-600 hidden md:block">
+          <li class="mb-6">Landlord Support Center</li>
+          <li class="mb-6">Suppliers</li>
+          <li class="mb-6">Corporate Gift Card Sales</li>
+          <li class="mb-6">Office and Foodservice Coffee</li>
+        </ul>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+        </svg> 
+      </div>
+
+      <div class="px-4 md:w-1/6 flex md:block justify-between items-center">
+        <h3 class="font-semibold text-[15px] md:text-lg my-4 md:my-6">Order and Pickup</h3>
+        <ul class="text-slate-600 hidden md:block">
+          <li class="mb-6">Order on the App</li>
+          <li class="mb-6">Order on the Web</li>
+          <li class="mb-6">Delivery</li>
+          <li class="mb-6">Order and Pickup Options</li>
+          <li class="mb-6">Explore and Find Coffee for Home</li>
+        </ul>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+        </svg> 
+      </div>
+
+
+      <hr>
+      
+
+    </footer>
+
+  </body>
+</html>
