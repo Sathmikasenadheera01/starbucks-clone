@@ -7,7 +7,8 @@ function responsiveMenu() {
 
         // if menu is open
 
-        
+        let body = document.getElementsByTagName('body')[0];
+        body.classList.remove('fixed');
 
         document.getElementById("hamburger").classList.remove('hidden')
         document.getElementById("hamburger").classList.add('block');
