@@ -5,6 +5,10 @@ function responsiveMenu() {
     
     if (document.getElementById("hamburger").classList.contains('hidden')) {
 
+        // if menu is open
+
+        
+
         document.getElementById("hamburger").classList.remove('hidden')
         document.getElementById("hamburger").classList.add('block');
         menu.classList.remove('block');
@@ -13,6 +17,9 @@ function responsiveMenu() {
         document.getElementById("close").classList.add('hidden');
 
     }else{
+
+        let body = document.getElementsByTagName('body')[0];
+        body.classList.add('fixed');
         
         menu.classList.remove('hidden');
         menu.classList.add('block');
